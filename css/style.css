@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+.details {
+  background-color: #272b30;
+  font-family: "Comfortaa", cursive;
+}
+
+.bg-main {
+  background-image: linear-gradient(
+      rgba(50, 53, 58, 0.357),
+      rgba(50, 53, 58, 0.357)
+    ),
+    url(../img/wraper.png);
+  background-position: center;
+  background-size: cover;
+  height: 30vh;
+}
+
+/* ===> navbar <=== */
+
+.navbar {
+  margin-top: -50px;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.bg-container {
+  background-color: #3a497b;
+}
+
+.nav-item a {
+  color: #fff;
+}
+
+.nav-item a:hover {
+  color: #0dcaf0;
+}
+
+.img-logo {
+  width: 4%;
+}
+
+/* ===> section home <=== */
+
+.text-free {
+  background-color: #0d6efd;
+}
+
+.text-card-footer {
+  background-color: #32383e;
+  font-size: 10px;
+}
+
+.card {
+  opacity: 0.7;
+  transition: 0.4s all;
+  min-height: 100%;
+}
+
+.card:hover {
+  scale: 1.04;
+  opacity: 1;
+}
+
+/* ===> section details <=== */
+.closeBtn {
+  cursor: pointer;
+}
+
+.span-details {
+  font-size: 13px;
+}
+
+.description-details {
+  font-size: 14px;
+}
+
+.details {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-y: auto; 
+  height: 100vh; 
+  background-color: #272b30;
+  font-family: "Comfortaa", cursive;
+}
+
